@@ -50,20 +50,28 @@ table {
 /* CSS reset end */
 
 *{
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Roboto Mono';
     border: 0.05px;
     
 }
 
+body{
+    margin: auto;
+    align-items: center;    
+    width: 50%;
+}
 
 h1{
     font-family: 'Chelsea Market';
+    font-size: 50px;
+    text-align: center;
 }
 
 nav{
     display: flex;
   justify-content: space-between;
   padding: 10%;
+  margin-left: 100px;
 }
 
 
@@ -72,7 +80,19 @@ nav{
     color: white;
     text-align: center;
     padding: 20px;
+    margin: 60px;
+    margin-right: 600px;
+    width: 100%;
+    
 
+}
+
+.paragraph{
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 footer{
@@ -84,31 +104,43 @@ footer{
 }
 
 
-#logo{
+#logo-left{
     border-radius: 50%;
+    align-items: center;
     width: 25%;
     height: auto;
     float: left;
     margin: 20px;
+margin-left: 100px;
+    
+
 }
 
-#logobot{
-    length: 500px;
-    width: 500px;
+#logo-right{
+   text-align: center; 
+    top: 164px;
+    left: 76px;
+    letter-spacing: 1.2px;
+    padding: 20px;
+
 }
+
 
 #fire{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+   align-items: center;
+    padding-left: 200px;
+    width: 20%;
+    height: 20%;
+    margin: auto;
 }
 
 #truck{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 400px;
+    margin-right: 30px;
+    width: 25%;
+    height: 25%;
 
 }
 
