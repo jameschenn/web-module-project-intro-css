@@ -50,7 +50,7 @@ table {
 /* CSS reset end */
 
 *{
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Roboto Mono';
     border: 0.05px;
     
 }
@@ -58,6 +58,8 @@ table {
 
 h1{
     font-family: 'Chelsea Market';
+    font-size: 50px;
+    text-align: center;
 }
 
 nav{
@@ -72,7 +74,12 @@ nav{
     color: white;
     text-align: center;
     padding: 20px;
+    
 
+}
+
+.paragraph{
+    text-align: center;
 }
 
 footer{
@@ -84,31 +91,43 @@ footer{
 }
 
 
-#logo{
+#logo-left{
     border-radius: 50%;
     width: 25%;
     height: auto;
     float: left;
     margin: 20px;
+    
+
+}
+
+#logo-right{
+   text-align: center; 
+    top: 164px;
+    left: 76px;
+    letter-spacing: 1.2px;
+    padding: 20px;
+
 }
 
 #logobot{
-    length: 500px;
-    width: 500px;
+   
 }
 
 #fire{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
+    height: 20%;
 }
 
 #truck{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
+    height: 25%;
 
 }
 
